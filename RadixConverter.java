@@ -8,6 +8,8 @@ public class RadixConverter {
 	public static void simpleConv(String a, int b, int c) {
 		System.out.println("Result: " + Integer.toString(Integer.parseInt(a, b), c) + "\u0007");
 		System.out.println();
+		System.out.println();
+		System.out.println();
 	}
 	
 	public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class RadixConverter {
 			System.out.println("Note: Functionality is very basic at this point. As of now, only conversion of integers between two bases between 2 and 36, inclusive, is supported.");
 			System.out.println();
 			System.out.println("Menu:");
+			System.out.println();
 			System.out.println("0. Quit");
 			System.out.println("1. Simple Base Conversion");
 			
